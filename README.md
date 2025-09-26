@@ -1,4 +1,4 @@
-# Realme Online Store – متجر realme الإلكتروني
+# realme.eg – ريلمي مصر
 
 ## About / حول الموقع
 This website is an online store showcasing Realme smartphones and accessories with modern design, responsive layout, and light/dark mode support.  
@@ -33,6 +33,6 @@ This website is an online store showcasing Realme smartphones and accessories wi
    تبديل الوضع النهاري/الليلي باستخدام الزر في الهيدر
 
 ## License / الترخيص
-This project is open-source and free to use.  
-هذا المشروع مفتوح المصدر ومتاح للاستخدام المجاني.
+All rights reserved.  
+جميع الحقوق محفوظة.
 
