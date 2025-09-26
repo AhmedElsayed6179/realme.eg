@@ -84,3 +84,16 @@ window.addEventListener("load", () => {
     }, 500);
   }, 500);
 });
+
+// Show different alert messages based on the site's language
+const lang = document.documentElement.lang || "en";
+document.querySelectorAll('.buy').forEach(btn => {
+  btn.addEventListener('click', (e) => {
+    e.preventDefault();
+    if (lang === "ar") {
+      alert("يمكنك طلب المنتج من فرعنا أو التواصل معنا أونلاين عبر صفحات التواصل الاجتماعي.");
+    } else {
+      alert("You can order this product at our branch or contact us online via our social media pages.");
+    }
+  });
+});
