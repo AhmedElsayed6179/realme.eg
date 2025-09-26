@@ -352,7 +352,6 @@ nav {
 }
 
 .eyebrow {
-    color: var(--text-primary);
     font-weight: 600;
     font-size: 1.5rem;
     display: inline-block;
@@ -362,7 +361,8 @@ nav {
 }
 
 .hero h1,
-.hero p.lead {
+.hero p.lead,
+.eyebrow {
     color: #000;
 }
 
@@ -902,3 +902,4 @@ footer {
     }
 
 }
+
