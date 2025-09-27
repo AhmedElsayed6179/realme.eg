@@ -564,7 +564,7 @@ section {
 .brand-banner {
     background:
         linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-        url('images/brand.jpg') center/cover no-repeat;
+        url('images/desktop-brand.jpg') center/cover no-repeat;
     padding: 90px 40px;
     color: #fff;
     border-radius: var(--border-radius);
@@ -885,7 +885,13 @@ footer {
         font-size: 1.1rem;
     }
 
+    .brand-banner {
+        background:
+            linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+            url('images/mobile-brand.jpg') center/cover no-repeat;
+    }
 }
+
 
 
 
