@@ -804,22 +804,6 @@ footer {
 
 
 /* ========== RESPONSIVE ========== */
-@media (max-width: 992px) {
-    .hero {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .hero .wrap {
-        flex-direction: column;
-        gap: 30px;
-    }
-
-    .hero-right img {
-        max-width: 340px;
-    }
-}
-
 @media (max-width: 768px) {
     .nav-list {
         display: none;
@@ -902,5 +886,6 @@ footer {
     }
 
 }
+
 
 
