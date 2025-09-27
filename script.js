@@ -97,3 +97,16 @@ document.querySelectorAll('.buy').forEach(btn => {
     }
   });
 });
+
+// Scroll smoothly to a section while accounting for the fixed header height
+function scrollToSection(id) {
+  const headerOffset = document.querySelector('header').offsetHeight;
+  const element = document.getElementById(id);
+  const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+  const offsetPosition = elementPosition - headerOffset;
+
+  window.scrollTo({
+    top: offsetPosition,
+    behavior: 'smooth'
+  });
+}
