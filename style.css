@@ -319,7 +319,7 @@ nav {
 /* ========== HERO ========== */
 .hero {
     margin-top: var(--header-height);
-    min-height: 90vh;
+    min-height: 95vh;
     display: flex;
     align-items: center;
     background: url('images/desktop-cover.jpg') center/cover no-repeat;
@@ -892,6 +892,7 @@ footer {
         margin: 0 22px;
     }
 }
+
 
 
 
